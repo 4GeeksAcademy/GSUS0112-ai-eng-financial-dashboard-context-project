@@ -17,6 +17,9 @@ export function DashboardHeader({ period = '2024 — Full Year' }: DashboardHead
         </div>
       </div>
       <div className="flex items-center gap-2">
+        <span className="inline-flex items-center rounded-full border border-orange-500/30 bg-orange-500/10 px-3 py-1 text-xs font-medium text-orange-500">
+          Data Mockeada
+        </span>
         <span className="inline-flex items-center rounded-full border border-border bg-secondary px-3 py-1 text-xs font-medium text-secondary-foreground">
           {period}
         </span>
